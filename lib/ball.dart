@@ -12,6 +12,7 @@ class Ball extends RectangleComponent with HasGameRef<Dogde> {
   Vector2 dire = Vector2(1, 1); // Movement direction
   late Effect effect;
 
+//
   @override
   Future<void> onLoad() async {
     size = Vector2(50, 50);
